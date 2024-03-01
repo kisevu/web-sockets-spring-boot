@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: chat-application
+  data:
+    mongodb:
+      username: ameda
+      password: ameda
+      host: localhost
+      port: 27017
+      database: chat_app
+      authentication-database: ameda
+
+server:
+  port: 8200
+
